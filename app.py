@@ -293,7 +293,7 @@ def get_spotify_data():
     try:
         # Fix the path to the band-dashboard directory
         import sys
-        dashboard_path = '/home/brett/band-dashboard'
+        dashboard_path = '/home/pi/band-dashboard'
         if dashboard_path not in sys.path:
             sys.path.insert(0, dashboard_path)
         os.chdir(dashboard_path)  # Ensure we're in the right directory
@@ -449,7 +449,7 @@ def get_discovered_on_data():
     try:
         # Fix the path
         import sys
-        dashboard_path = '/home/brett/band-dashboard'
+        dashboard_path = '/home/pi/band-dashboard'
         if dashboard_path not in sys.path:
             sys.path.insert(0, dashboard_path)
         os.chdir(dashboard_path)
@@ -658,7 +658,7 @@ def get_instagram_data():
     try:
         # Fix the path
         import sys
-        dashboard_path = '/home/brett/band-dashboard'
+        dashboard_path = '/home/pi/band-dashboard'
         if dashboard_path not in sys.path:
             sys.path.insert(0, dashboard_path)
             
